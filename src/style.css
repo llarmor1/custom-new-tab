@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+    --bg: #B0B7BF;
+    --fg: #131B1E;
+    /*
+        https://coolors.co/b0b7bf-131b1e-3c4552-e9ebed-5e6d7e
+    */
+}
+
+html {
+    font-family: "JetBrains Mono";
+    font-size: 18px;
+    background-color: var(--bg);
+    color: var(--fg);
+    background-image: url("img/GwOSeRJbYAAjUua.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0px;
+    padding: 50px;
+    
+}
+
+.time {
+    font-size: 26px;
+    line-height: 1.173;
+    letter-spacing: -0.7px;
+    text-align: center;
+}
+
+ul {
+    font-family: "JetBrains Mono";
+    font-size: 20px;
+    margin: 20px 40px 0px 40px;
+    list-style-type: "~/";
+    list-style-position: inside;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 900px) {
+    ul {
+        margin: 20px 0px 0px 0px;
+    }
+}
+
+a:link {
+    color: var(--fg);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--fg);
+}
+
+li {
+    padding: 2px;
+}
+
+li:hover,
+li:hover a {
+    cursor: pointer;
+    background-color: var(--fg);
+    color: var(--bg);
+}
