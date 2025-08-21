@@ -5,7 +5,7 @@
   "description": "Use html file as new tab",
   "applications": {
     "gecko": {
-      "id": "mardevour@github",
+      "id": "llarmor1@github",
       "strict_min_version": "78.0"
     }
   },
